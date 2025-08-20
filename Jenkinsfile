@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupère le code depuis le repo
-                git 'git@github.com:luckyrobinsonh/tetris_game.git'
+                git 'https://github.com/luckyrobinsonh/tetris_game.git'
             }
         }
 
